@@ -1,0 +1,181 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* wrapper */
+
+.wrapper {
+
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+
+}
+
+/* Header */
+
+header {
+
+    width: 100%;
+    height: 588px;
+    background: url(./assets/header/background/Layer36.jpg);
+
+}
+
+.header__content {
+
+    width: 1120px;
+    height: 588px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+
+.header__content_menu {
+
+    position: relative;
+    top: 50px;
+
+}
+
+.header__content_info {
+
+    position: relative;
+    width: 570px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header__content_info-wrapper {
+
+    position: relative;
+    right: 115px;
+    width: 327px;
+    height: 200px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header__content_info-wrapper > h1 {
+
+    width: 450px;
+
+    font-size: 48px;
+    line-height: 36px;
+    color: #ffffff;
+    font-family: "Raleway";
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.header__content_info-wrapper > p {
+
+    font-size: 18px;
+    line-height: 36px;
+    color: #ffffff;
+    font-family: "Raleway";
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.red_line {
+
+    background-color: rgb(251, 100, 112);
+    width: 327px;
+    height: 2px;   
+
+}
+
+a.button__hire {
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 4px;
+    background-color: rgb(251, 100, 112);
+    top: 344px;
+    width: 170px;
+    height: 49px;
+    text-decoration: none;
+
+    font-size: 22px;
+    line-height: 36px;
+    color: #ffffff;
+    font-family: "Raleway";
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.button__hire:hover {
+
+    background-color: white;
+    color: black;
+
+} 
+
+/* Main */
+
+main {
+
+    width: 1120px;
+    height: 2712px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+
+}
+
+section.main__blocks {
+
+    width: 1120px;
+    height: 607px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-content: flex-end;
+
+}
+
+section.main__blocks > div#about_me {
+
+    width: 591px;
+    height: 424px;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-content: flex-start;
+
+}
+
+section.main__blocks > img#image {
+
+    width: 383px;
+    height: 528px;
+
+}
+
+
+
