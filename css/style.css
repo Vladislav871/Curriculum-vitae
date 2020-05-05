@@ -10,7 +10,7 @@ header {
     width: 100%;
     height: 588px;
 
-    background: url(/Curriculum-vitae/assets/header/background/Layer36.jpg);
+    background: url(/assets/header/background/Layer36.jpg);
 
 }
 
@@ -520,7 +520,7 @@ header {
 
         margin: 0 0 100px 0;
 
-        background: url(/Curriculum-vitae/assets/my_skills/background.png);
+        background: url(/assets/my_skills/background.png);
 
     }
 
@@ -750,6 +750,277 @@ header {
         font-weight: 500;
 
         text-align: right;
+
+    }
+
+    /* Footer */
+
+    footer {
+
+        width: 1120px;
+        height: 430px;
+
+        margin: 0 auto;
+
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: flex-start;
+
+    }
+
+    .footer__head {
+
+        width: 100%;
+        height: 355px;
+
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        align-items: flex-start;
+
+    }
+
+    #head-left-form {
+
+        width: 550px;
+        height: 240px;
+
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: flex-start;
+
+    }
+
+    #head-left-form > h1 {
+
+        font-size: 22px;
+        line-height: 50px;
+        color: #3e3e3e;
+        font-family: "Raleway";
+        font-weight: 500;
+
+    }
+
+    #head-left-form > form {
+
+        width: 550px;
+        height: 200px;
+
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        align-items: flex-start;
+
+    }
+
+    #left-form {
+
+        width: 265px;
+        height: 150px;
+
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    #left-form > input {
+
+        padding: 0 0 0 10px;
+
+        width: 265px;
+        height: 35px;
+
+        color: gray;
+
+    }
+
+    #right-form {
+
+        width: 265px;
+        height: 200px;
+
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: flex-end;
+
+    }
+
+    #right-form > input {
+
+        padding: 0 0 125px 10px;
+
+        width: 265px;
+        height: 150px;
+
+        color: gray;
+
+    }
+
+    #right-form > a {
+
+        width: 95px;
+        height: 35px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: #fb6470;
+
+        text-decoration: none;
+
+        font-size: 16px;
+        line-height: 50px;
+        color: #ffffff;
+        font-family: "Raleway";
+        font-weight: 500;
+
+    }
+
+    #right-form > a:hover {
+
+        background-color: black;
+
+    }
+
+    #head-right-contact {
+
+        width: 455px;
+        height: 255px;
+
+        position: relative;
+        top: 10px;
+
+        display: flex;
+        flex-flow: row;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+
+    #left-contact {
+
+        width: 75px;
+        height: 132px;
+
+        position: relative;
+        top: 15px;
+
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: center;
+
+        align-self: center;
+
+    }
+
+    #right-contact {
+
+        width: 360px;
+        height: 145px;
+
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        align-self: center;
+
+    }
+
+    #right-contact > h1 {
+
+        font-size: 22px;
+        line-height: 50px;
+        color: #3e3e3e;
+        font-family: "Raleway";
+        font-weight: 500;
+
+        margin: 0;
+
+    }
+
+    #right-contact > p {
+
+        position: relative;
+        bottom: 20px;
+
+        font-size: 16px;
+        line-height: 50px;
+        color: #3e3e3e;
+        font-family: "Raleway";
+        font-weight: 500;
+
+        margin: 0;
+
+    }
+
+    .footer__bottom {
+
+        width: 1120px;
+        height: 75px;
+
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+
+    #social-links {
+
+        width: 120px;
+        height: 35px;
+
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        align-items: flex-start;
+
+    }
+
+    #social-links > .vertical-line {
+
+        width: 1px;
+        height: 18px;
+        background-color: #212121;
+
+    }
+
+    #social-links > #copyright {
+
+        width: 255px;
+        height: 15px;
+
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+
+        align-self: center;
+
+    }
+
+    #copyright > p {
+
+        font-size: 12px;
+        line-height: 50px;
+        color: #3e3e3e;
+        font-family: "Raleway";
+        font-weight: 500;
+
+    }
+
+    #vk {
+
+        width: 18px;
+        height: 17px;
 
     }
 
