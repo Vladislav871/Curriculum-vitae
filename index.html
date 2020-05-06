@@ -19,7 +19,7 @@
                 <h1>Vladislav Stelmakh</h1>
                 <section class="red_md_line"></section>
                 <p>Front-end Developer</p>
-                <a href="" class="button__hire">
+                <a href="#hireme" class="button__hire">
                     <section class="hire_me">
                         Hire Me!
                     </section>
@@ -30,21 +30,18 @@
     <main>
         <section class="main__container">
             <section class="main__about-me">
+                <section id="about-me-head">
+                    <h1>About Me</h1>
+                    <section class="red_sm_line"></section>
+                </section>
                 <section id="about_me-left">
-                    <section id="about-me-head">
-                        <h1>About Me</h1>
-                        <section class="red_sm_line"></section>
-                    </section>
-                    <section id="about-me-info"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, hic ullam magnam aut pariatur non distinctio architecto repudiandae accusantium iusto.</p></section>
+                    <section id="about-me-info"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quibusdam ipsam ut magnam odit quo, eligendi voluptatum, vitae alias possimus, repellat necessitatibus totam.</p></section>
                     <section id="about-me-details">
                         <p><b>Name:</b> Vladislav Stelmakh</p>
                         <p><b>Age:</b> 18 Years Old</p>
                         <p><b>E-mail:</b> stelmakh.vladislav02@mail.ru</p>
                         <p><b>Web-page:</b> github.com/Vladislav871/</p>
                     </section>
-                </section>
-                <section id="about_me-right">
-                    <img src="./assets/about_me/main_photo.jpg" alt="avatar">
                 </section>
             </section>
             <section class="main__work-experience">
@@ -249,19 +246,20 @@
                 </section>
         </section>
     </main>
-    <footer>
+    <footer id="hireme">
         <section class="footer__head">
             <section id="head-left-form">
                 <h1>Leave a Message</h1>
-                <form action="#">
+                <form action="" method="POST">
                     <section id="left-form">
-                        <input type="text" id="name" placeholder="name'">
-                        <input type="text" id="email" placeholder="e-mail'">
-                        <input type="text" id="subject" placeholder="subject'">
+                        <input type="text" id="name" placeholder="name'" required>
+                        <input type="text" id="email" placeholder="e-mail'" required>
+                        <input type="text" id="subject" placeholder="subject'" required>
                     </section>
                     <section id="right-form">
-                        <input type="text" id="message" placeholder="message'">
-                        <a href="#" id="button-hire-me">Hire Me!</a>
+                        <textarea id="message" cols="30" rows="8" placeholder="message'" required></textarea>
+                        
+                        <button id="button-hire-me">Hire Me!</button>
                     </section>
                 </form> 
             </section>
@@ -280,11 +278,11 @@
         </section>
         <section class="footer__bottom">
             <section id="social-links">
-                <a href="#"><img src="./assets/footer/Twitter.png" alt="twitter"></a>
+                <a href="#" target="_blank"><img src="./assets/footer/Twitter.png" alt="twitter"></a>
                 <section class="vertical-line"></section>
-                <a href="#"><img src="./assets/footer/Skype.png" alt="skype"></a>
+                <a href="#" target="_blank"><img src="./assets/footer/Skype.png" alt="skype"></a>
                 <section class="vertical-line"></section>
-                <a href="https://vk.com/vladizlavstelmakh"><img src="./assets/footer/vk.png" alt="vk" id="vk"></a>
+                <a href="https://vk.com/vladizlavstelmakh" target="_blank"><img src="./assets/footer/vk.png" alt="vk" id="vk"></a>
             </section>
             <section id="copyright"><p>Copyright: Junaed Ahmed. All rights reserved</p></section>
         </section>
