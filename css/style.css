@@ -1180,7 +1180,7 @@
     .main__about-me {
 
         width: 100%;
-        height: 600px;
+        height: 620px;
 
         margin: 0 0 100px 0;
 
@@ -1194,7 +1194,7 @@
     #about_me-left {
 
         width: 590px;
-        height: 525px;
+        height: 530px;
 
         display: flex;
         flex-flow: column;
@@ -1206,7 +1206,7 @@
     #about-me-head {
 
         width: 200px;
-        height: 60px;
+        height: 50px;
 
         margin: 0 0 5px 0;
 
@@ -1214,7 +1214,7 @@
 
     #about-me-head > h1 {
 
-        font-size: 40px;
+        font-size: 30px;
         line-height: 36px;
         color: #3e3e3e;
         font-family: "Raleway";
@@ -1242,7 +1242,7 @@
     #about-me-info {
 
         width: 434px;
-        height: 110px;
+        height: 130px;
 
         overflow: hidden;
 
@@ -1250,7 +1250,7 @@
 
     #about-me-info > p {
 
-        font-size: 20px;
+        font-size: 14px;
         line-height: 26px;
         color: #3e3e3e;
         font-family: "Raleway";
@@ -1274,7 +1274,7 @@
 
     #about-me-details > p {
 
-        font-size: 20px;
+        font-size: 14px;
         line-height: 50px;
         color: #3e3e3e;
         font-family: "Raleway";
