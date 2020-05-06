@@ -2336,6 +2336,18 @@
 
     }
 
+    #about-me-details > p > a {
+
+        font-size: 14px;
+        line-height: 50px;
+        color: #3e3e3e;
+        font-family: "Raleway";
+        font-weight: 600;
+
+        text-decoration: none;
+
+    }
+
     #about_me-right {
 
         width: 385px;
