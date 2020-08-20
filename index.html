@@ -11,8 +11,26 @@
 <body>
     <header>
         <section class="header__container">
-            <nav id="header-menu">
-                <a href="#"><img src="./assets/header/menu/menu.png" alt="menu"></a>
+            <nav id="header-menu" onclick="clickMenu()">
+                <section id="menu-icon">
+                    <div class="menu-str"></div>
+                    <div class="menu-str"></div>
+                    <div class="menu-str"></div>
+                </section>
+                <section id="menu-bar">
+                    <div id="abme">
+                        <a href="#about_me-left"><h1>About Me</h1></a>
+                    </div>
+                    <div id="work">
+                        <a href="#work-exp-head"><h1>Work Experience</h1></a>
+                    </div>
+                    <div id="educ">
+                        <a href="#main__education"><h1>Education</h1></a>
+                    </div>
+                    <div id="myskl">
+                        <a href="#skills-head"><h1>My Skills</h1></a>
+                    </div>
+                </section>
             </nav>
             <section id="header-information">
                 <section class="red_md_line"></section>
@@ -113,7 +131,7 @@
                     </section>
                 </section>
             </section>
-            <section class="main__education">
+            <section id="main__education">
                 <section id="work-exp-head">
                     <h1>Education</h1>
                     <section class="red_sm_line"></section>
@@ -279,14 +297,15 @@
         </section>
         <section class="footer__bottom">
             <section id="social-links">
-                <a href="#" target="_blank"><img src="./assets/footer/Twitter.png" alt="twitter"></a>
+                <a href="#" target="_blank"><img src="./assets/footer/twitter.png" alt="twitter" id="tw"></a>
                 <section class="vertical-line"></section>
-                <a href="#" target="_blank"><img src="./assets/footer/Skype.png" alt="skype"></a>
+                <a href="#" target="_blank"><img src="./assets/footer/skype.png" alt="skype" id="sk"></a>
                 <section class="vertical-line"></section>
                 <a href="https://vk.com/vladizlavstelmakh" target="_blank"><img src="./assets/footer/vk.png" alt="vk" id="vk"></a>
             </section>
             <section id="copyright"><p>Copyright: Junaed Ahmed. All rights reserved</p></section>
         </section>
     </footer>
+    <script src="./menu.js"></script>
 </body>
 </html>
