@@ -2205,18 +2205,87 @@
         align-items: flex-start;
     
     }
+
+    #menu-bar {
+
+        position: relative;
+        right: 350px;
+
+        width: 200px;
+        height: 600px;
+
+        overflow: hidden;
+
+        transition: right 1.5s;
+
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+
+    #menu-bar > div > a {
+
+        text-decoration: none;
     
-    #header-menu {
-    
+    }
+
+    #menu-bar > div {
+
+        width: 100px;
+
+    }
+
+    #menu-bar > div > a > h1 {
+
+        font-size: 26px;
+        line-height: 26px;
+        color: #ffffff;
+        font-family: "Raleway";
+        font-weight: 500;
+        text-align: left;
+
+    }
+
+    #menu-icon {
+
         margin: 50px 0;
+
+    }
+
+    #menu-icon:hover {
     
+        cursor: pointer;
+    
+    }
+
+    .menu-str {
+        width: 44.99px;
+        height: 5px;
+
+        margin: 11px 0;
+
+        background-color: #fb6470;
+
+        transform-origin: left;
+
+        transition: transform 2s;
+    }
+
+    #str-hide {
+        opacity: 100%;
+        transition: opacity 2s;
     }
     
     #header-information {
     
         width: 971px;
         height: 100%;
-    
+
+        position: relative;
+        right: 80px;
+
         display: flex;
         flex-flow: column;
         justify-content: center;
@@ -3225,11 +3294,24 @@
 
     #vk {
 
-        width: 18px;
-        height: 17px;
+        width: 20px;
+        height: 20px;
 
     }
 
+    #tw {
+
+        width: 20px;
+        height: 20px;
+
+    }
+
+    #sk {
+
+        width: 20px;
+        height: 20px;
+    
+    }
 }
 
 
