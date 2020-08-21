@@ -3,7 +3,7 @@ const lineIcon1 = document.querySelector('#str-hide')
 const menuBar = document.getElementById('menu-bar');
 let click = true;
 
-const clickMenu = () => {
+const clikMenu = () => {
     if(click) {
         lineIcon1.style.opacity = '0%';
         lineIcon[0].style.transform = 'rotate(45deg)';
