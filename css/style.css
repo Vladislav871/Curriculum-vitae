@@ -33,7 +33,7 @@
 
         overflow: hidden;
 
-        transition: right 1.5s;
+        transition: right 1s;
 
         display: flex;
         flex-flow: column;
@@ -87,12 +87,12 @@
 
         transform-origin: left;
 
-        transition: transform 2s;
+        transition: transform 1s;
     }
 
     #str-hide {
         opacity: 100%;
-        transition: opacity 2s;
+        transition: opacity 0.5s;
     }
 
     .header__container {

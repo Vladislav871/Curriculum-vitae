@@ -10,7 +10,9 @@ const clickMenu = () => {
         lineIcon[0].style.position = 'relative';
         lineIcon[2].style.transform = 'rotate(-45deg)';
         lineIcon[2].style.position = 'relative';
-        lineIcon[2].style.left = '2px'
+        lineIcon[2].style.left = '2px';
+        lineIcon[2].style.top = '1.05px';
+        lineIcon[2].style.width = '43.99px';
         menuBar.style.right = '50px';
         click = false;
     } else {
