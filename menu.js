@@ -5,6 +5,7 @@ let click = true;
 
 const clikMenu = () => {
     if(click) {
+        menuBar.style.opacity = '100%';
         lineIcon1.style.opacity = '0%';
         lineIcon[0].style.transform = 'rotate(45deg)';
         lineIcon[0].style.position = 'relative';
@@ -16,6 +17,7 @@ const clikMenu = () => {
         menuBar.style.right = '50px';
         click = false;
     } else {
+        menuBar.style.opacity = '0%';
         lineIcon1.style.opacity = '100%';
         lineIcon[0].style.transform = '';
         lineIcon[0].style.position = '';

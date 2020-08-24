@@ -7,6 +7,12 @@
 
 @media (min-width: 1224px) {
 
+    body {
+
+        scroll-behavior: smooth;
+
+    }
+
     header {
 
         width: 100%;
@@ -32,8 +38,9 @@
         height: 600px;
 
         overflow: hidden;
+        opacity: 0%;
 
-        transition: right 1s;
+        transition: opacity 0.5s, right 1s;
 
         display: flex;
         flex-flow: column;
