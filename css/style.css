@@ -7,6 +7,52 @@
 
 @media (min-width: 1224px) {
 
+    #arrow-back {
+
+        position: fixed;
+        left: 94%;
+        top: 89%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 50%;
+        opacity: 0%;
+
+        transition: opacity 3s, width 1.5s, height 1.5s;
+
+    }
+
+    #arrow-back > a {
+        
+        position: absolute;
+        z-index: 1000;
+
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+
+        background: #fb6470;
+        opacity: 80%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #arrow-back > a > img {
+
+        width: 35px;
+        height: 35px;
+        position: relative;
+        bottom: 1.5px;
+
+        opacity: 100%;
+
+    }
+
     body {
 
         scroll-behavior: smooth;
