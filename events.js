@@ -21,3 +21,7 @@ $body.addEventListener('wheel', () => {
     $el.style.opacity = '100%';
 });
 
+let showArrow = () => {
+    $el.style.opacity = '100%';
+}
+
