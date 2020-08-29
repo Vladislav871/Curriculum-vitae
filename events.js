@@ -18,7 +18,11 @@ function scrollTop(endPos, i){
 }
 
 $body.addEventListener('wheel', () => {
-    $el.style.opacity = '100%';
+    if(window.pageYOffset > 100) {
+        $el.style.opacity = '100%';
+    } else {
+        $el.style.opacity = '0%';
+    }
 });
 
 let showArrow = () => {

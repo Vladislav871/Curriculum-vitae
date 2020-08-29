@@ -791,7 +791,7 @@
 
     #line_skill_1 {
 
-        width: 222px;
+        width: 2px;
         height: 4px;
         background-color: #fb6470;
 
@@ -799,12 +799,14 @@
         flex-flow: row;
         justify-content: flex-end;
         align-items: center;
+
+        transition: width 1.5s;
 
     }
 
     #line_skill_2 {
 
-        width: 230px;
+        width: 2px;
         height: 4px;
         background-color: #fb6470;
 
@@ -812,12 +814,14 @@
         flex-flow: row;
         justify-content: flex-end;
         align-items: center;
+
+        transition: width 1.5s;
 
     }
 
     #line_skill_3 {
 
-        width: 50px;
+        width: 2px;
         height: 4px;
         background-color: #fb6470;
 
@@ -825,12 +829,14 @@
         flex-flow: row;
         justify-content: flex-end;
         align-items: center;
+
+        transition: width 1.5s;
 
     }
 
     #line_skill_4 {
 
-        width: 222px;
+        width: 2px;
         height: 4px;
         background-color: #fb6470;
 
@@ -838,12 +844,14 @@
         flex-flow: row;
         justify-content: flex-end;
         align-items: center;
+
+        transition: width 1.5s;
 
     }
 
     #line_skill_5 {
 
-        width: 200px;
+        width: 2px;
         height: 4px;
         background-color: #fb6470;
 
@@ -851,12 +859,14 @@
         flex-flow: row;
         justify-content: flex-end;
         align-items: center;
+
+        transition: width 1.5s;
 
     }
 
     #line_skill_6 {
 
-        width: 230px;
+        width: 2px;
         height: 4px;
         background-color: #fb6470;
 
@@ -864,6 +874,8 @@
         flex-flow: row;
         justify-content: flex-end;
         align-items: center;
+
+        transition: width 1.5s;
 
     }
 
